@@ -1,0 +1,42 @@
+@import "../../vars.css";
+
+
+.container {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    margin-top: 120px;
+    color: var(--color-text);
+
+}
+  
+.text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+.link img {
+    transition: transform 0.7s cubic-bezier(0.25, 0.1, 0.25, 1); /* Curva personalizada para mayor suavidad */
+  }
+  
+  .link img:hover {
+    transform: scale(1.2);
+  }
+
+.rights {
+    margin-top: 5px;
+}

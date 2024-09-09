@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Tienda de guitarras",
+    "imageSrc": "projects/tienda.png",
+    "description": "Trabajo Front-End realizado para la universidad.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://dertux.github.io/Front_End_Tienda/",
+    "source": "https://github.com/dertux/Front_End_Tienda"
+  },
+  {
+    "title": "Cita veterinaria",
+    "imageSrc": "projects/veterinaria.png",
+    "description": "Formulario para administrar pacientes de veterinaria.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://dertux.github.io/Cita-Veterinaria/",
+    "source": "https://github.com/dertux/Cita-Veterinaria"
+  },
+  {
+    "title": "Tienda Cheems",
+    "imageSrc": "projects/cheems.png",
+    "description": "Sistema de pedidos e inventario para una tienda de música",
+    "skills": ["PHP", "Javascript", "HTML", "CSS"],
+    "demo": "/",
+    "source": "https://github.com/dertux/InventarioPedidoscheems"
+  },
+  {
+    "title": "Blog cafetería",
+    "imageSrc": "projects/coffee.png",
+    "description": "Formulario para administrar pacientes de veterinaria.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://blogcoffee-dertux.netlify.app",
+    "source": "https://blogcoffee-dertux.netlify.app"
+  },
+  {
+    "title": "Front-End Store",
+    "imageSrc": "projects/front.png",
+    "description": "Formulario para administrar pacientes de veterinaria.",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://dertux.github.io/FrontEndStore/",
+    "source": "https://github.com/dertux/FrontEndStore"
+  }
+]

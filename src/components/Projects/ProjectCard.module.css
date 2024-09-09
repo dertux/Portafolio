@@ -1,0 +1,92 @@
+@import "../../vars.css";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido se distribuya uniformemente */
+    border-radius: 10px;
+    background: linear-gradient(180deg, #51737b 0%, #18232b);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+    margin: 5px;
+    max-height: 530px; /* Establece una altura mínima para que todas las tarjetas tengan la misma altura */
+}
+
+.image {
+    margin-bottom: 26px;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    flex-grow: 1; /* Permite que la descripción crezca si es necesario */
+}
+
+.skills {
+    list-style: none;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.skill {
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 2px 22px;
+    background: #18232b;
+    margin: 0 auto;
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    color: var(--color-text);
+    background: var(--color-primary);
+    padding: 1px 22px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Agrega transición para el cambio de color y el efecto de transformación */
+
+}
+
+.link:hover {
+    background-color: var(--color-secondary);
+    transform: scale(1.05); /* Efecto de ampliación suave */
+
+}
+
+@media screen and (max-width: 830px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Asegura que el contenido se distribuya uniformemente */
+        border-radius: 10px;
+        background: linear-gradient(180deg, #51737b 0%, #18232b);
+        box-shadow: 0 16px 14px 0 #04152d;
+        padding: 18px 24px;
+        max-width: 345px;
+        margin: 5px;
+        min-height: 430px; /* Establece una altura mínima para que todas las tarjetas tengan la misma altura */
+    }
+}
