@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Necesario crear la carpeta dist para subir el proyecto a un dominio
+Paso 1 : npm run build (crea la carpeta dist)
+paso2: npm run preview (asegurar que esté andando el proyecto)
+paso3: subir la carpeta dist a un dominio
